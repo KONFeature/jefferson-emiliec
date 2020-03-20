@@ -1,6 +1,9 @@
-## Jefferson
 
-Theme Name: Jefferson-emiliec
+# Jefferson
+
+Fork of the original theme to fix somme issue encoutered on the website : https://emiliec.fr/
+
+Theme Name: Jefferson
 Version: 1.0.4
 Tested up to: WP 4.8
 
@@ -13,11 +16,9 @@ Editor URI : https://nivelais.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
--------------------------------------------------------
-Jefferson theme, Copyright 2017 createandcode.com
-Jefferson WordPress theme is distributed under the terms of the GNU GPL
-Jefferson is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
--------------------------------------------------------
+    Jefferson theme, Copyright 2017 createandcode.com
+	Jefferson WordPress theme is distributed under the terms of the GNU GPL
+	Jefferson is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 
 ## Credits 
 Unless otherwise specified, all the theme files, scripts and images are licensed under GPLv2 license.
