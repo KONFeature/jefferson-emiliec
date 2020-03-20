@@ -27,9 +27,14 @@ $jefferson_sticky_navigation	 = jefferson_get_option( 'jefferson_sticky_navigati
 		            'use strict';
 		            $( document ).ready( function () {
 		                if ( $( window ).width() > 1024 ) {
-		                    $( '.ccfw-header-nav' ).stick_in_parent( {
-		                        parent: 'body',
-		                    } );
+		                    $( '.ccfw-header-nav' ).stick_in_parent({
+								parent: 'body',
+								spacer: false
+							}).on('sticky_kit:stick', function(e) {
+								e.target.parentNode.style.height = $(e.target).outerHeight() + 'px';
+							}).on('sticky_kit:unstick', function(e) {
+								e.target.parentNode.style.height = 'auto';
+				});
 		                }
 		            } );
 		        }( jQuery ) );

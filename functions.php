@@ -257,7 +257,7 @@ require_once( CC_CORE . '/functions/class-tgm-plugin-activation.php' );
  */
 function jefferson_scripts() {
 
-	//wp_enqueue_script( 'ccfw-sticky', get_template_directory_uri() . '/js/sticky-kit.js', array(), '20130133', true );
+	wp_enqueue_script( 'ccfw-sticky', get_template_directory_uri() . '/js/sticky-kit.js', array(), '20130133', true );
 	wp_enqueue_script( 'ccfw-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20161205', true );
 	wp_enqueue_script( 'ccfw-main', get_template_directory_uri() . '/js/main.js', array( 'jquery' ), '20161205', true );
 	wp_enqueue_script( 'ccfw-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
